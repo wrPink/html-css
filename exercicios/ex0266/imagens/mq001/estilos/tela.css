@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: lightgray;
+
+}
+
+header > h1 {
+    text-align: center;
+}
+menu li{
+    background-color: brown;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+menu ul{
+    list-style-type: none;
+    background-color: gray;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
